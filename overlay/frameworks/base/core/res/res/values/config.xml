@@ -16,4 +16,13 @@
 
    <!-- Enable system navigation keys. -->
    <bool name="config_supportSystemNavigationKeys">true</bool>
+
+   <!-- Whether the device has fingeprint sensor or not -->
+   <bool name="config_hasFingerprintSensor">true</bool>
+
+   <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+   <bool name="config_intrusiveNotificationLed">true</bool>
+   
+   <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+   <bool name="config_intrusiveBatteryLed">true</bool>
 </resources>
